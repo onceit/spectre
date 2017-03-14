@@ -83,20 +83,20 @@
   width: 3.2rem;
 }
 .calendar .calendar-body .date-item.date-today {
-  background: #eff1fa;
-  color: #5764c6;
+  background: #f2f8ff;
+  color: #2e8af7;
 }
 .calendar .calendar-body .date-item:focus,
 .calendar .calendar-body .date-item:hover {
-  background: #f7f8fc;
-  border-color: #dcdff3;
-  color: #5764c6;
+  background: #fcfdff;
+  border-color: #daeafe;
+  color: #2e8af7;
   text-decoration: none;
 }
 .calendar .calendar-body .date-item:active,
 .calendar .calendar-body .date-item.active {
-  background: #4452c0;
-  border-color: #3b49af;
+  background: #157cf6;
+  border-color: #0970e9;
   color: #fff;
 }
 .calendar .calendar-body .date-item.badge::after {
@@ -111,7 +111,7 @@
   position: relative;
 }
 .calendar .calendar-range .date-item::before {
-  background: #eff1fa;
+  background: #f2f8ff;
   content: "";
   height: 3.2rem;
   left: 50%;
@@ -193,9 +193,9 @@
   padding: .5rem;
 }
 .calendar.calendar-lg .calendar-event {
-  background: #eff1fa;
+  background: #f2f8ff;
   border-radius: .2rem;
-  color: #5764c6;
+  color: #2e8af7;
   display: block;
   font-size: 1.2rem;
   margin: .2rem auto;
@@ -495,7 +495,7 @@
   background: #efefef;
   border: 0;
   border-radius: .2rem;
-  color: #5764c6;
+  color: #2e8af7;
   height: .4rem;
   position: relative;
   width: 100%;
@@ -505,17 +505,17 @@
   border-radius: .2rem;
 }
 .progress::-webkit-progress-value {
-  background: #5764c6;
+  background: #2e8af7;
   border-radius: .2rem;
 }
 .progress::-moz-progress-bar {
-  background: #5764c6;
+  background: #2e8af7;
   border-radius: .2rem;
 }
 .progress:indeterminate {
   -webkit-animation: progress-indeterminate 1.5s linear infinite;
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #efefef linear-gradient(to right, #5764c6 30%, #efefef 30%) top left / 150% 150% no-repeat;
+  background: #efefef linear-gradient(to right, #2e8af7 30%, #efefef 30%) top left / 150% 150% no-repeat;
 }
 .progress:indeterminate::-moz-progress-bar {
   background: transparent;
@@ -547,7 +547,7 @@
 }
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: #5764c6;
+  background: #2e8af7;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -558,7 +558,7 @@
   width: 1.2rem;
 }
 .slider::-moz-range-thumb {
-  background: #5764c6;
+  background: #2e8af7;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -568,7 +568,7 @@
   width: 1.2rem;
 }
 .slider::-ms-thumb {
-  background: #5764c6;
+  background: #2e8af7;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -624,5 +624,5 @@
   width: 100%;
 }
 .slider::-ms-fill-lower {
-  background: #5764c6;
+  background: #2e8af7;
 }

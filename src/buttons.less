@@ -43,32 +43,19 @@
 
   // Button Primary
   &.btn-primary {
-    background: @primary-color;
-    border-color: @dark-primary-color;
-    color: @light-color;
-    &:focus {
-      background: @dark-primary-color;
-      border-color: darken(@dark-primary-color, 2%);
-      color: @light-color;
-    }
-    &:hover {
-      background: darken(@dark-primary-color, 2%);
-      border-color: darken(@dark-primary-color, 7%);
-      color: @light-color;
-    }
-    &:active,
-    &.active {
-      background: darken(@dark-primary-color, 4%);
-      border-color: darken(@dark-primary-color, 9%);
-      color: @light-color;
-    }
-    &.loading {
-      &::after {
-        border-color: @light-color;
-        border-right-color: transparent;
-        border-top-color: transparent;
-      }
-    }
+    .button-variant(@primary-color);
+  }
+
+  &.btn-success {
+    .button-variant(@control-color-success);
+  }
+
+  &.btn-warning {
+    .button-variant(@control-color-warning);
+  }
+
+  &.btn-danger {
+    .button-variant(@control-color-danger);
   }
 
   // Button Link
